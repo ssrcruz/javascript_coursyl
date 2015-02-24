@@ -14,3 +14,13 @@
 //= require jquery_ujs
 //= require d3
 //= require_tree .
+
+function disableFunction() {
+  var button = document.getElementById("btn").disabled = 'true';
+  button.disabled = 'true';
+  // <input type="submit" name="commit" value="Update Course" class="btn">
+  // form.updateButton.disabled = true;
+  // return true;
+}
+// onclick: "setTimeout(disableFunction, 1);"
+// <%= f.submit class: "btn", onsubmit: "commit.disabled = true; return true;" %>
